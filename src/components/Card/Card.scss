@@ -1,0 +1,23 @@
+.my__card{
+    color: white;
+    text-align: center;
+    width: 192px;
+    border-radius: 16px;
+    height: 226px;
+    background-color: var(--mainDark);
+    margin-top: 70px;
+    h4{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+        color:  #aaa;
+    }
+    img{
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        transform: translateY(-50px);
+        object-fit: cover;
+    }
+}

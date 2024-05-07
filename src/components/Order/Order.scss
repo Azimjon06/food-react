@@ -1,0 +1,76 @@
+.order{
+    background-color: var(--mainDark);
+    width: 40%;
+    h2{
+    color: var(--lightPink);
+    }
+    .order__btn{
+        background-color: transparent;
+        border: 1px solid var(--lightPink);
+        border-radius:8px;
+        padding: 14px 20px;
+        color: var(--lightPink); 
+        margin-right: 10px;
+        padding: 14px;
+    }
+    .active{
+        background-color: var(--lightPink);
+        color: white;
+     
+    }
+}
+.order__item{
+    margin:15px ;
+    .item__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+    img{
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    div{
+        width:55%;
+    }
+    span{
+        border-radius: 8px;
+        background-color: var(--darkGrey);
+        border: solid 1px #393C49;
+        width: 48px;
+        height: 48px;
+        
+        justify-content: center;
+        align-items: center;
+        display: flex;
+         
+        
+
+    }
+    .item__bot{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    input{
+        background-color:  var(--darkGrey);
+        border: 1px solid #393C49;
+          border-radius: 8px; 
+          padding: 14px;
+          width: 80%;
+    }
+    button{
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--lightPink );
+        border: 1px solid var(--lightPink) ;
+        border-radius:8px ;
+        background-color: transparent;
+    }
+}
